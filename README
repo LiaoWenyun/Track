@@ -1,0 +1,18 @@
++++ Installation +++
+
+1.Clone the repo: $ git clone https://github.com/LiaoWenyun/Track.git
+2.cd into Track directory.
+3.Give permission to run install.sh: $ chmod +x install.sh
+3.Run the install script: $ sudo ./install.sh
+4.Test by running (any directory): $ track -help
+
+
+Valid commands:
+$track -help 
+$track -status [class_name]
+$track -report 
+$track -add [class_name]
+$track -remove [class_name]
+$track -remove -all
+$track -start [class_name]
+$track -finish [class_name]
